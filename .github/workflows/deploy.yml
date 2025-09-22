@@ -24,7 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
-          context: ./devops-intership-task1 
+          context: ./devops-intership-task1/Dockerfile 
           file: ./devops-intership-task1/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/devops-intership-task1:latest
