@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/python-ci-cd:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/devops-intership-task1:latest
